@@ -1,0 +1,10 @@
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/synthesizer.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/synth.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/INSTALL.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/unittests.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests/CMakeFiles/compare.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests/CMakeFiles/RUN_TESTS.dir
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests/CMakeFiles/INSTALL.dir

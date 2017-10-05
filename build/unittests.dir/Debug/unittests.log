@@ -1,0 +1,5 @@
+﻿  wav.cpp
+C:\Users\yunke\Downloads\P1\project1-daddyke-final\wav.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int16_t', possible loss of data
+  wav_test.cpp
+  Generating Code...
+  unittests.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\unittests.exe

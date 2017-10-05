@@ -1,0 +1,13 @@
+﻿  Building Custom Rule C:/Users/yunke/Downloads/P1/project1-daddyke-final/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\CMakeFiles\generate.stamp is up-to-date.
+  event.cpp
+  track.cpp
+  midi.cpp
+  signal.cpp
+  instrument.cpp
+  synthesizer.cpp
+  wav.cpp
+  Generating Code...
+signal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+event.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  synthesizer.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synthesizer.lib

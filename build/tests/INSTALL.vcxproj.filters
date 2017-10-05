@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\CMakeFiles\d84ce5d6d31d2fc17a03dc4b2e0432ff\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2147197A-D012-3315-A3BA-F64EF0B8FE80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

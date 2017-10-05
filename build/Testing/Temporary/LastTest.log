@@ -1,0 +1,283 @@
+Start testing: Oct 05 16:37 Eastern Daylight Time
+----------------------------------------------------------
+1/9 Testing: 00_Install
+1/9 Test: 00_Install
+Command: "C:/Program Files/CMake/bin/cmake.exe" "--build" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/build" "--target" "install"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build
+"00_Install" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2017/10/5 16:37:29.
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\install.vcxproj" on node 1 (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\install.vcxproj" (1) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\install.vcxproj" (1) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (3) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\tests\compare.vcxproj" (4) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "compare.dir\Debug\compare.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  compare.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\tests\Debug\compare.exe
+FinalizeBuildStatus:
+  Deleting file "compare.dir\Debug\compare.tlog\unsuccessfulbuild".
+  Touching "compare.dir\Debug\compare.tlog\compare.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\tests\compare.vcxproj" (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (3) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synth.vcxproj" (5) on node 1 (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synth.vcxproj" (5) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synthesizer.vcxproj" (6) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "synthesizer.dir\Debug\synthesizer.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"synthesizer.dir\Debug\\" /Fd"synthesizer.dir\Debug\synthesizer.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\yunke\Downloads\P1\project1-daddyke-final\instrument.cpp" "C:\Users\yunke\Downloads\P1\project1-daddyke-final\signal.cpp" "C:\Users\yunke\Downloads\P1\project1-daddyke-final\synthesizer.cpp" "C:\Users\yunke\Downloads\P1\project1-daddyke-final\wav.cpp"
+  instrument.cpp
+  signal.cpp
+  synthesizer.cpp
+  wav.cpp
+C:\Users\yunke\Downloads\P1\project1-daddyke-final\wav.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int16_t', possible loss of data [C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synthesizer.vcxproj]
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synthesizer.lib" /NOLOGO  /machine:X86 synthesizer.dir\Debug\event.obj
+  synthesizer.dir\Debug\track.obj
+  synthesizer.dir\Debug\midi.obj
+  synthesizer.dir\Debug\signal.obj
+  synthesizer.dir\Debug\instrument.obj
+  synthesizer.dir\Debug\synthesizer.obj
+  synthesizer.dir\Debug\wav.obj
+  synthesizer.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synthesizer.lib
+CopyFilesToOutputDirectory:
+  Copying file from "synthesizer.dir\Debug\synthesizer.pdb" to "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synthesizer.pdb".
+FinalizeBuildStatus:
+  Deleting file "synthesizer.dir\Debug\synthesizer.tlog\unsuccessfulbuild".
+  Touching "synthesizer.dir\Debug\synthesizer.tlog\synthesizer.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synthesizer.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "synth.dir\Debug\synth.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"synth.dir\Debug\\" /Fd"synth.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\yunke\Downloads\P1\project1-daddyke-final\main.cpp"
+  main.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synth.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\synthesizer.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/Debug/synth.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/Debug/synth.lib" /MACHINE:X86 /SAFESEH  /machine:X86 synth.dir\Debug\main.obj
+  synth.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\synth.exe
+FinalizeBuildStatus:
+  Deleting file "synth.dir\Debug\synth.tlog\unsuccessfulbuild".
+  Touching "synth.dir\Debug\synth.tlog\synth.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synth.vcxproj" (default targets).
+Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (3) is building "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\unittests.vcxproj" (7) on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "unittests.dir\Debug\unittests.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Link:
+  All outputs are up-to-date.
+  unittests.vcxproj -> C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\Debug\unittests.exe
+FinalizeBuildStatus:
+  Deleting file "unittests.dir\Debug\unittests.tlog\unsuccessfulbuild".
+  Touching "unittests.dir\Debug\unittests.tlog\unittests.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\unittests.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+FinalizeBuildStatus:
+  Deleting file "Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "Win32\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (default targets).
+InitializeBuildStatus:
+  Creating "Win32\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  setlocal
+  "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  -- Install configuration: "Debug"
+  -- Installing: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe
+  -- Installing: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/unittests.exe
+  -- Up-to-date: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe
+FinalizeBuildStatus:
+  Deleting file "Win32\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+  Touching "Win32\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+Done Building Project "C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\install.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\install.vcxproj" (default target) (1) ->
+"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\ALL_BUILD.vcxproj" (default target) (3) ->
+"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synth.vcxproj" (default target) (5) ->
+"C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synthesizer.vcxproj" (default target) (6) ->
+(ClCompile target) -> 
+  C:\Users\yunke\Downloads\P1\project1-daddyke-final\wav.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'int16_t', possible loss of data [C:\Users\yunke\Downloads\P1\project1-daddyke-final\build\synthesizer.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.36
+<end of output>
+Test time =   4.62 sec
+----------------------------------------------------------
+Test Passed.
+"00_Install" end time: Oct 05 16:37 Eastern Daylight Time
+"00_Install" time elapsed: 00:00:04
+----------------------------------------------------------
+
+2/9 Testing: unittests
+2/9 Test: unittests
+Command: "C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/Debug/unittests.exe"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build
+"unittests" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Parsing MIDI file succeeded.
+Parsing MIDI file failed.
+Parsing MIDI file succeeded.
+Parsing MIDI file succeeded.
+Parsing MIDI file succeeded.
+Parsing MIDI file succeeded.
+===============================================================================
+All tests passed (36 assertions in 9 test cases)
+
+<end of output>
+Test time =   3.74 sec
+----------------------------------------------------------
+Test Passed.
+"unittests" end time: Oct 05 16:37 Eastern Daylight Time
+"unittests" time elapsed: 00:00:03
+----------------------------------------------------------
+
+3/9 Testing: test0
+3/9 Test: test0
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test0.mid" "-DOUTPUT_FILE=test0" "-DERR_FILE=test0.stderr" "-DOUT_FILE=test0.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test0-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test0" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   1.51 sec
+----------------------------------------------------------
+Test Passed.
+"test0" end time: Oct 05 16:37 Eastern Daylight Time
+"test0" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/9 Testing: test1
+4/9 Test: test1
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test1.mid" "-DOUTPUT_FILE=test1" "-DERR_FILE=test1.stderr" "-DOUT_FILE=test1.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test1-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test1" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"test1" end time: Oct 05 16:37 Eastern Daylight Time
+"test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: test2
+5/9 Test: test2
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test2.mid" "-DOUTPUT_FILE=test2" "-DERR_FILE=test2.stderr" "-DOUT_FILE=test2.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test2-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test2" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   0.30 sec
+----------------------------------------------------------
+Test Passed.
+"test2" end time: Oct 05 16:37 Eastern Daylight Time
+"test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: test3
+6/9 Test: test3
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test3.mid" "-DOUTPUT_FILE=test3" "-DERR_FILE=test3.stderr" "-DOUT_FILE=test3.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test3-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test3" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   1.62 sec
+----------------------------------------------------------
+Test Passed.
+"test3" end time: Oct 05 16:37 Eastern Daylight Time
+"test3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/9 Testing: test4
+7/9 Test: test4
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test4.mid" "-DOUTPUT_FILE=test4" "-DERR_FILE=test4.stderr" "-DOUT_FILE=test4.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test4-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test4" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   1.57 sec
+----------------------------------------------------------
+Test Passed.
+"test4" end time: Oct 05 16:37 Eastern Daylight Time
+"test4" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/9 Testing: test5
+8/9 Test: test5
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test5.mid" "-DOUTPUT_FILE=test5" "-DERR_FILE=test5.stderr" "-DOUT_FILE=test5.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test5-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test5" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   0.48 sec
+----------------------------------------------------------
+Test Passed.
+"test5" end time: Oct 05 16:37 Eastern Daylight Time
+"test5" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/9 Testing: test6
+9/9 Test: test6
+Command: "C:/Program Files/CMake/bin/cmake.exe" "-DCOMPARE_EXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe" "-DEXE_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe" "-DINPUT_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test6.mid" "-DOUTPUT_FILE=test6" "-DERR_FILE=test6.stderr" "-DOUT_FILE=test6.stdout" "-DTEST_FILE=C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/test6-0.wav" "-P" "C:/Users/yunke/Downloads/P1/project1-daddyke-final/tests/Test.cmake"
+Directory: C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/tests
+"test6" start time: Oct 05 16:37 Eastern Daylight Time
+Output:
+----------------------------------------------------------
+Files similar.
+<end of output>
+Test time =   2.41 sec
+----------------------------------------------------------
+Test Passed.
+"test6" end time: Oct 05 16:37 Eastern Daylight Time
+"test6" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 05 16:37 Eastern Daylight Time

@@ -1,0 +1,23 @@
+﻿  Test project C:/Users/yunke/Downloads/P1/project1-daddyke-final/build
+      Start 1: 00_Install
+  1/9 Test #1: 00_Install .......................   Passed    4.62 sec
+      Start 2: unittests
+  2/9 Test #2: unittests ........................   Passed    3.74 sec
+      Start 3: test0
+  3/9 Test #3: test0 ............................   Passed    1.51 sec
+      Start 4: test1
+  4/9 Test #4: test1 ............................   Passed    0.29 sec
+      Start 5: test2
+  5/9 Test #5: test2 ............................   Passed    0.30 sec
+      Start 6: test3
+  6/9 Test #6: test3 ............................   Passed    1.62 sec
+      Start 7: test4
+  7/9 Test #7: test4 ............................   Passed    1.57 sec
+      Start 8: test5
+  8/9 Test #8: test5 ............................   Passed    0.48 sec
+      Start 9: test6
+  9/9 Test #9: test6 ............................   Passed    2.41 sec
+  
+  100% tests passed, 0 tests failed out of 9
+  
+  Total Test time (real) =  16.56 sec

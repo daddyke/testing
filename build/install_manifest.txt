@@ -1,0 +1,3 @@
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/synth.exe
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/unittests.exe
+C:/Users/yunke/Downloads/P1/project1-daddyke-final/build/bin/compare.exe
